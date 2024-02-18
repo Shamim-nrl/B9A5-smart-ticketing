@@ -29,76 +29,78 @@
 </head>
 
 <body>
+    <header>
+        <div class="w-[90%] mx-auto mb-16 font-[raleway-uniquifier">
+            <nav class="]">
+                <div>
+                    <div class="navbar bg-base-100">
+                        <div class="navbar-start">
+                            <div class="dropdown">
+                                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
 
-    <header class="w-[90%] mx-auto mb-16 font-[raleway-uniquifier">
-        <nav class="]">
-            <div>
-                <div class="navbar bg-base-100">
-                    <div class="navbar-start">
-                        <div class="dropdown">
-                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-
+                                </div>
+                                <ul tabindex="0"
+                                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                                    <li><a>Home</a></li>
+                                    <li><a>About</a></li>
+                                    <li><a>Destination</a></li>
+                                    <li><a>Search</a></li>
+                                </ul>
                             </div>
-                            <ul tabindex="0"
-                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <a class="btn btn-ghost text-xl font-extrabold text-[#030712]">P-Ticket</a>
+                        </div>
+                        <div class="navbar-center hidden lg:flex">
+                            <ul class="menu menu-horizontal px-1">
                                 <li><a>Home</a></li>
                                 <li><a>About</a></li>
                                 <li><a>Destination</a></li>
                                 <li><a>Search</a></li>
                             </ul>
                         </div>
-                        <a class="btn btn-ghost text-xl font-extrabold text-[#030712]">P-Ticket</a>
-                    </div>
-                    <div class="navbar-center hidden lg:flex">
-                        <ul class="menu menu-horizontal px-1">
-                            <li><a>Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Destination</a></li>
-                            <li><a>Search</a></li>
-                        </ul>
-                    </div>
-                    <div class="navbar-end">
-                        <div class=" bg-[#1DD1001A] rounded-md py-2 px-4  flex">
-                            <a class="">Bus</a>
-                            <img class="w-6 h-6 ml-2" src="./images/bus-icon.png" alt="">
+                        <div class="navbar-end">
+                            <div class=" bg-[#1DD1001A] rounded-md py-2 px-4  flex">
+                                <a class="">Bus</a>
+                                <img class="w-6 h-6 ml-2" src="./images/bus-icon.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-        <!-- banner section  -->
-        <div class="bg-[url('./images/banner.png')] bg-no-repeat h-[500px] bg-center bg-cover rounded-lg">
-            <div class="flex flex-col justify-center items-center h-full gap-8">
-                <h1 class="font-medium text-6xl text-white ">End-to-End Travel with </h1>
-                <h2 class="text-[#1DD100] font-medium text-6xl">P Paribahan</h2>
-                <p class="text-[#ffffffcc] text-center">Yes, you can run unit tests and view the results directly within
-                    the app. <br /> The integrated testing
-                    features allow for a streamlined .</p>
-                <button class="bg-[#1DD100] rounded-md py-3 px-6 text-[#030712] font-bold text-base "><a
-                        href="#ticket-section">Buy Tickets</a></button>
-            </div>
-
-            <div class="lg:flex gap-5 justify-center items-center lg:absolute bottom-2 w-[95%]">
-
-                <div class="flex border-b-2 border-[#1DD100] rounded-lg w-52 bg-white mt-4">
-                    <div><img src="./images/people.png" alt=""></div>
-                    <div>
-                        <p>500K+</p>
-                        <p>Registered users</p>
-                    </div>
+            </nav>
+            <!-- banner section  -->
+            <div class="bg-[url('./images/banner.png')] bg-no-repeat h-[500px] bg-center bg-cover rounded-lg">
+                <div class="flex flex-col justify-center items-center h-full gap-8">
+                    <h1 class="font-medium text-6xl text-white ">End-to-End Travel with </h1>
+                    <h2 class="text-[#1DD100] font-medium text-6xl">P Paribahan</h2>
+                    <p class="text-[#ffffffcc] text-center">Yes, you can run unit tests and view the results directly
+                        within
+                        the app. <br /> The integrated testing
+                        features allow for a streamlined .</p>
+                    <button class="bg-[#1DD100] rounded-md py-3 px-6 text-[#030712] font-bold text-base "><a
+                            href="#ticket-section">Buy Tickets</a></button>
                 </div>
-                <div class="flex border-b-2 border-[#1DD100] rounded-lg w-52 bg-white mt-4">
-                    <div><img src="./images/ticket-cupon.png" alt=""></div>
-                    <div>
-                        <p>1.7 lacks</p>
-                        <p>Tickets sold</p>
+
+                <div class="lg:flex gap-5 justify-center items-center lg:absolute bottom-2 w-[95%]">
+
+                    <div class="flex border-b-2 border-[#1DD100] rounded-lg w-52 bg-white mt-4">
+                        <div><img src="./images/people.png" alt=""></div>
+                        <div>
+                            <p>500K+</p>
+                            <p>Registered users</p>
+                        </div>
                     </div>
-                </div>
-                <div class="flex border-b-2 border-[#1DD100] rounded-lg w-52 bg-white mt-4">
-                    <div><img src="./images/stoppage.png" alt=""></div>
-                    <div>
-                        <p>80K+</p>
-                        <p>Rental partners</p>
+                    <div class="flex border-b-2 border-[#1DD100] rounded-lg w-52 bg-white mt-4">
+                        <div><img src="./images/ticket-cupon.png" alt=""></div>
+                        <div>
+                            <p>1.7 lacks</p>
+                            <p>Tickets sold</p>
+                        </div>
+                    </div>
+                    <div class="flex border-b-2 border-[#1DD100] rounded-lg w-52 bg-white mt-4">
+                        <div><img src="./images/stoppage.png" alt=""></div>
+                        <div>
+                            <p>80K+</p>
+                            <p>Rental partners</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -109,7 +111,7 @@
         <section class="w-[90%] mx-auto my-20 font-[raleway-uniquifier">
             <h2 class="text-[#030712] text-2xl font-bold text-center mt-[265Px]">Best offers for you</h2>
 
-            <div class="lg:flex gap-4 justify-center my-10 h-[300px]">
+            <div class="lg:flex gap-4 justify-center my-10 ">
 
                 <div class="flex bg-[#FFBF0F] flex-row items-center lg:w-[50%] rounded-lg mt-4">
                     <div class="text-center w-[60%]">
@@ -144,7 +146,8 @@
             <div class="flex justify-center">
                 <h2
                     class="w-[150px] py-2 rounded-lg text-center font-bold text-xs text-[#1DD100]  border-2 border-[#1DD100]">
-                    See All Offers</h2>
+                    See All Offers
+                </h2>
             </div>
         </section>
         <!-- Ticket section  -->
@@ -172,7 +175,7 @@
 
                         <div class="lg:flex bg-[#1DD10026] p-3 rounded-lg ">
                             <div><img src="./images/seat-gray.png" alt=""></div>
-                            <span class="text-[#1DD100] mx-2">40</span>
+                            <span id="seats-left" class="text-[#1DD100] mx-2">40</span>
                             <p class="text-[#1DD100]">Seats left</p>
                         </div>
                     </div>
@@ -237,55 +240,55 @@
                     <div class="grid grid-cols-5 gap-5">
 
                         <button>A</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">A1</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">A2</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">A3</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">A4</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">A1</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">A2</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">A3</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">A4</button>
                         <button>B</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">B1</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">B2</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">B3</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">B4</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">B1</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">B2</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">B3</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">B4</button>
                         <button>C</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">C1</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">C2</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">C3</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">C4</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">C1</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">C2</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">C3</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">C4</button>
                         <button>D</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">D1</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">D2</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">D3</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">D4</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">D1</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">D2</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">D3</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">D4</button>
                         <button>E</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">E1</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">E2</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">E3</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">E4</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">E1</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">E2</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">E3</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">E4</button>
                         <button>F</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">F1</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">F2</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">F3</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">F4</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">F1</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">F2</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">F3</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">F4</button>
                         <button>G</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">G1</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">G2</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">G3</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">G4</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">G1</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">G2</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">G3</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">G4</button>
                         <button>H</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">H1</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">H2</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">H3</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">H4</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">H1</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">H2</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">H3</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">H4</button>
                         <button>I</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">I1</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">I2</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">I3</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">I4</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">I1</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">I2</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">I3</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">I4</button>
                         <button>J</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">J1</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">J2</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">J3</button>
-                        <button class="buking-btn bg-[#0307121A] py-2 px-6 rounded-lg">J4</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">J1</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">J2</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">J3</button>
+                        <button class="booking-btn bg-[#0307121A] py-2 px-6 rounded-lg">J4</button>
 
                     </div>
 
@@ -304,49 +307,63 @@
                     <div class=" bg-[#F7F8F8] py-8 rounded-lg">
 
                         <div class="flex justify-around my-3">
-                            <h3>Seat <span class="bg-[#1DD100] text-white px-3 rounded-lg">0</span></h3>
+                            <h3>Seat <span id="seat-count" class="bg-[#1DD100] text-white px-3 rounded-lg">0</span></h3>
                             <h3>Class</h3>
                             <h3>Price</h3>
                         </div>
                         <!-- ---------------------js -->
                         <hr class="border-dashed" />
-                        <div class="flex justify-around my-3">
-                            <p>C2</p>
-                            <p>Economy</p>
-                            <p>550</p>
-                        </div>
-                        <div class="flex justify-around my-3">
-                            <p>C2</p>
-                            <p>Economy</p>
-                            <p>550</p>
+                        <div id="selected-set" class="grid grid-cols-3  text-center">
+                          
+
                         </div>
                         <hr class="border-dashed" />
 
-                        <div class="flex justify-around gap-16">
+                        <div class="flex justify-around gap-16 my-3">
                             <h3>Total Price</h3>
-                            <h3>BDT <span>1100</span></h3>
+                            <h3>BDT <span id="price">0</span></h3>
                         </div>
                         <div class="flex justify-evenly my-3">
-                            <input class="w-[300px] rounded-lg py-1 pl-2 " type="text" placeholder="Have any copupon?">
-                            <button class="bg-[#1DD100] px-5 py-1 rounded-lg absolute ml-[250px] ">Apply</button>
+                            <input id="input" class="w-[300px] rounded-lg py-1 pl-2 " type="text" placeholder="Have any copupon?">
+                            <button id="apply" class="bg-[#1DD100] px-5 py-1 rounded-lg absolute ml-[250px] ">Apply</button>
                         </div>
 
                         <div class="flex justify-around gap-16">
                             <h3>Ground Total</h3>
-                            <h3>BDT <span>1100</span></h3>
+                            <h3>BDT <span id="total-price">0</span></h3>
                         </div>
                         <!------------------------------------ js -------------------------------------->
+
                     </div>
+                    <div class="my-3">
+                        <label class="font-bold" for="">Passenger Name*</label>
+                        <input class="w-full border-2 rounded-lg pl-2 py-2 my-2" type="text"
+                            placeholder="Enter your name">
 
+                        <label class="font-bold" for="">Phone Number*</label>
+                        <input class="w-full border-2 rounded-lg pl-2 py-2 my-2" type="text"
+                            placeholder="Enter your Phone Number">
+
+                        <label class="font-bold" for="">Email ID</label>
+                        <input class="w-full border-2 rounded-lg pl-2 py-2 my-2" type="text"
+                            placeholder="Enter your Email ID">
+
+                        <a href="http://127.0.0.1:5500/success.html"><button id="next-btn"
+                                class="bg-[#1DD100] text-white w-full text-center py-2 rounded-lg my-5">Next</button></a>
+
+                        <div class="flex justify-between -my-0.5">
+                            <a class="border-b-2" href="">Terms and Conditions</a>
+                            <a class="border-b-2" href="">Cancellation Policy</a>
+                        </div>
+                    </div>
                 </div>
-
-
-
             </div>
         </section>
-
     </main>
 
+
+
+    <script src="app.js"></script>
 </body>
 
 </html>
