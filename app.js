@@ -1,20 +1,22 @@
 
-
+let seatsLeft = 40
 let totalSeats = 0;
 const bookingBtn = document.querySelectorAll(".booking-btn")
 for (const iterator of bookingBtn) {
     iterator.addEventListener('click', function (e) {
         totalSeats = totalSeats + 1;
 
+        if (totalSeats > 4) {
+            alert("do not more purchase")
+            return;
+        }
         e.target.style.backgroundColor = '#1DD100'
         e.target.setAttribute("disabled", 'true')
         document.getElementById("seat-count").innerText = totalSeats;
 
-        // _______________________________________________________________________________
-        const seatsLeft = document.getElementById("seats-left").innerText
         const left = seatsLeft - totalSeats
         document.getElementById("seats-left").innerText = left;
-        // _________________________________________________________________________________
+
         const booking2 = e.target.innerText
         const selectedSet = document.getElementById("selected-set")
         const p = document.createElement("p")
@@ -31,13 +33,13 @@ for (const iterator of bookingBtn) {
 
         document.getElementById("price").innerText = price
 
-        if (totalSeats >= 5) {
-            alert('do not more bay')
-            return
-        }
-        // discount section -----------------------------------
+        // discount section ---------
         const apply = document.getElementById("apply")
         apply.addEventListener("click", function (e) {
+
+            const applyDiv = document.getElementById("apply-div")
+            applyDiv.classList.add("hidden")
+
 
             const input = document.getElementById("input").value
             const coupon = input.split(" ").join("").toUpperCase()
@@ -53,15 +55,9 @@ for (const iterator of bookingBtn) {
             else {
                 alert("invalid")
             }
-
         })
-
-
     })
-
-
 }
-
 
 
 
