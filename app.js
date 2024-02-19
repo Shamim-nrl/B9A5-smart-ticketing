@@ -7,7 +7,7 @@ for (const iterator of bookingBtn) {
         totalSeats = totalSeats + 1;
 
         if (totalSeats > 4) {
-            alert("do not more purchase")
+            alert("Do Not More Purchase")
             return;
         }
         e.target.style.backgroundColor = '#1DD100'
@@ -53,7 +53,7 @@ for (const iterator of bookingBtn) {
                 document.getElementById("total-price").innerText = price - discount
             }
             else {
-                alert("invalid")
+                alert("Invalid")
             }
         })
     })
