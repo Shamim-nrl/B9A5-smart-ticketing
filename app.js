@@ -1,4 +1,4 @@
-
+let nam = false;
 let seatsLeft = 40
 let totalSeats = 0;
 const bookingBtn = document.querySelectorAll(".booking-btn")
@@ -37,10 +37,6 @@ for (const iterator of bookingBtn) {
         const apply = document.getElementById("apply")
         apply.addEventListener("click", function (e) {
 
-            const applyDiv = document.getElementById("apply-div")
-            applyDiv.classList.add("hidden")
-
-
             const input = document.getElementById("input").value
             const coupon = input.split(" ").join("").toUpperCase()
 
@@ -54,7 +50,11 @@ for (const iterator of bookingBtn) {
             }
             else {
                 alert("Invalid")
+                return
             }
+            const applyDiv = document.getElementById("apply-div")
+            applyDiv.classList.add("hidden")
+
         })
     })
 }
