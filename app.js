@@ -44,7 +44,7 @@ for (const iterator of bookingBtn) {
             const input = document.getElementById("input").value
             const coupon = input.split(" ").join("").toUpperCase()
 
-            if (coupon === "NEWS15") {
+            if (coupon === "NEW15") {
                 discount = price * 15 / 100
                 document.getElementById("total-price").innerText = price - discount
 
